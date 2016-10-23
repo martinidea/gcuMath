@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#18B4ED</color>
+    <color name="textColor">#000000</color>
+
+    <color name="statusColor">#6FA4E1</color>
+
+    <color name="keyTextColor">#000000</color>
+    <color name="valueTextColor">#333333</color>
+
+    <color name="topBarTitleColor">#000000</color>
+    <color name="blackBoardTitleColor">#FFFFFF</color>
+    <color name="blackBoardTextColor">#FFFFFF</color>
+    <color name="background">#EEEEEE</color>
+
+    <color name="background_on">#FFFFFF</color>
+    <color name="simple_without_click">#FFFFFF</color>
+    <color name="simple_click">#DDDDDD</color>
+    <color name="line_color">#999999</color>
+    <color name="text_selection">#18B4ED</color>
+    <color name="text_no_selection">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="TopBarBackground">#FFFFFF</color>
+    <color name="met_primaryColor">#18B4ED</color>
+    <color name="met_baseColor">#000000</color>
+    <color name="met_textColorHint">#18B4ED</color>
+    <color name="button_color">#18B4ED</color>
+    <color name="button_focus_color">#1899ED</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="forget_color">#1899ED</color>
+
+    <color name="notice_color">#FFFFFF</color>
+    <color name="notice_title_color">#FFFFFF</color>
+
+    <color name="radio_button_bg">#18B4ED</color>
+    <color name="radio_button_text">#FFFFFF</color>
+
+    <color name="refresh_color1">#00ff99</color>
+    <color name="refresh_color2">#0099ff</color>
+    <color name="refresh_color3">#99cc00</color>
+
+    <color name="fileView_text_info">#999999</color>
+    <color name="fileView_upLoader">#0099ff</color>
+
+    <color name="warming_color">#ff0000</color>
+    
+    <color name="text_dark">#999999</color>
+    <color name="question_background">#ffffff</color>
+
+
+</resources>

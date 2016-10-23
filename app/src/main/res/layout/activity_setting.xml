@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.gcu.math.view.ui.TopBar
+        style="@style/TopBar"
+        app:title="@string/setting" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="20dp"
+        app:hasLine="false"
+        app:hasRightButton="false"
+        app:text="Wifi下自动下载更新包">
+
+    </com.gcu.math.view.ui.SoftView>
+
+    <com.gcu.math.view.ui.SoftTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="20dp"
+        app:hasLine="false"
+        app:keyText="清理缓存"
+        app:valueText="32.0K">
+
+    </com.gcu.math.view.ui.SoftTextView>
+
+    <com.gcu.math.view.ui.SoftView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="20dp"
+        app:hasLine="false"
+        app:text="意见反馈">
+
+    </com.gcu.math.view.ui.SoftView>
+
+    <com.gcu.math.view.ui.SoftView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="20dp"
+        app:hasLine="false"
+        app:hasRightButton="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退出登陆"
+            android:textColor="@color/warming_color" />
+    </com.gcu.math.view.ui.SoftView>
+
+</LinearLayout>

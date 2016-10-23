@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="hasLeftButton" format="boolean" />
+        <attr name="hasRightButton" format="boolean" />
+        <attr name="hasTitle" format="boolean" />
+        <attr name="rightText" format="string"></attr>
+        <attr name="title" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CardView">
+        <attr name="image" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FileView">
+        <attr name="fileName" format="string" />
+        <attr name="updateTime" format="string" />
+        <attr name="uploader" format="string" />
+        <attr name="fileSize" format="string" />
+        <attr name="hasLine" />
+        <attr name="buttonText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SoftView">
+        <attr name="text" />
+        <attr name="textColor" />
+        <attr name="hasRightButton" />
+        <attr name="hasLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SoftTextView">
+        <attr name="keyText" format="string" />
+        <attr name="keyTextColor" format="color" />
+        <attr name="valueText" format="string" />
+        <attr name="valueTextColor" format="string" />
+        <attr name="hasLine" />
+    </declare-styleable>
+
+    <declare-styleable name="BlackBoardView">
+        <attr name="title" />
+        <attr name="titleColor" />
+        <attr name="text" />
+        <attr name="textColor" />
+    </declare-styleable>
+</resources>

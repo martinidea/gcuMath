@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#ffffff"
+              android:orientation="vertical">
+
+    <com.gcu.math.view.ui.TopBar
+        style="@style/TopBar"
+        app:title="@string/login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/school_number"
+            app:met_baseColor="@color/met_baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="16"
+            app:met_primaryColor="@color/met_primaryColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/met_textColorHint"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/met_baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="16"
+            app:met_primaryColor="@color/met_primaryColor"
+            app:met_singleLineEllipsis="true"
+            app:met_textColorHint="@color/met_textColorHint"/>
+
+        <TextView
+            android:id="@+id/text_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingBottom="@dimen/forget_padding"
+            android:paddingLeft="@dimen/forget_padding"
+            android:paddingTop="@dimen/forget_padding"
+            android:text="@string/forget_password"
+            android:textColor="@color/forget_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/login"
+            android:textColor="@color/button_text_color"/>
+
+        <Button
+            android:id="@+id/button_sign"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/sign"
+            android:textColor="@color/button_text_color"/>
+    </LinearLayout>
+</LinearLayout>

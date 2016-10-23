@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gcu.math">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="icon">
+        <activity android:name=".view.activity.AboutActivity"></activity>
+        <activity android:name=".view.activity.AskActivity"></activity>
+        <activity android:name=".view.activity.FormulaActivity"></activity>
+        <activity android:name=".view.activity.KnowledgeActivity"></activity>
+        <activity android:name=".view.activity.ListAskActivity"></activity>
+        <activity android:name=".view.activity.LoginActivity"></activity>
+        <activity
+            android:name=".view.activity.MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.MyAskActivity"></activity>
+        <activity android:name=".view.activity.MyCollectActivity"></activity>
+        <activity android:name=".view.activity.MyDownloadActivity"></activity>
+        <activity android:name=".view.activity.MyInfoActivity"></activity>
+        <activity android:name=".view.activity.MyReplyActivity"></activity>
+        <activity android:name=".view.activity.NoticeActivity"></activity>
+        <activity android:name=".view.activity.ReplyActivity"></activity>
+        <activity android:name=".view.activity.SettingActivity"></activity>
+        <activity android:name=".view.activity.ShareActivity"></activity>
+        <activity android:name=".view.activity.SignActivity"></activity>
+        <activity android:name=".view.activity.WelcomeActivity"></activity>
+        <activity android:name=".view.activity.TestActivity"></activity>
+        <activity android:name=".view.activity.QuestionListActivity"></activity>
+        <activity android:name=".view.activity.QuestionActivity"></activity>
+    </application>
+
+</manifest>

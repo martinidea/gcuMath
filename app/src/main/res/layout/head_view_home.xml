@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.gcu.math.view.ui.BlackBoardView
+        android:id="@+id/blackBoard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/blackBoard_height"
+        app:title="@string/notice">
+
+    </com.gcu.math.view.ui.BlackBoardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.gcu.math.view.ui.CardView
+            android:id="@+id/knowledge_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@mipmap/knowledge"
+            app:text="@string/knowledge" />
+
+        <com.gcu.math.view.ui.CardView
+            android:id="@+id/formula_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@mipmap/formula"
+            app:text="@string/formula" />
+
+        <com.gcu.math.view.ui.CardView
+            android:id="@+id/share_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:image="@mipmap/share"
+            app:text="@string/share" />
+    </LinearLayout>
+</LinearLayout>

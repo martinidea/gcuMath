@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gcu.math.view.ui.FileView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/file_view"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    app:buttonText="@string/download"
+    app:fileName="我的文档.doc"
+    app:fileSize="25.6k"
+    app:updateTime="08-07 21:04"
+    app:uploader="林梓涛">
+
+</com.gcu.math.view.ui.FileView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/headImage_layout_height"
+        android:background="@mipmap/background"
+        android:paddingTop="20dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_head"
+            android:layout_width="@dimen/headImage_width"
+            android:layout_height="@dimen/headImage_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:placeholderImage="@mipmap/ic_launcher"
+            app:roundAsCircle="true" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_head"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg"
+            android:text="@string/login_or_sign"
+            android:textColor="@color/button_text_color" />
+
+        <TextView
+            android:id="@+id/text_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_head"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Martin"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_nick"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="积分：12"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_ask"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="@dimen/line_height"
+        app:text="@string/my_ask" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_reply"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        app:text="@string/my_reply" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_collect"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        app:text="@string/my_collect" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        app:hasLine="false"
+        app:text="@string/my_download" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_about"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        android:layout_marginTop="20dp"
+        app:text="@string/about" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_setting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        app:hasLine="false"
+        app:text="@string/setting" />
+
+    <com.gcu.math.view.ui.SoftView
+        android:id="@+id/soft_test"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/soft_height"
+        app:text="@string/test" />
+
+</LinearLayout>

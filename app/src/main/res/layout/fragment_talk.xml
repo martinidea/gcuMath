@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background"
+              android:orientation="vertical">
+
+    <com.gcu.math.view.ui.TopBar
+        style="@style/TopBar"
+        app:hasLeftButton="false"
+        app:hasTitle="false">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_hot"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_01"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="2dip"
+                android:paddingTop="2dip"
+                android:text="@string/radio_hot"
+                android:textColor="@drawable/title_text_sel"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/radio_classify"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_02"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="2dip"
+                android:paddingTop="2dip"
+                android:text="@string/radio_classify"
+                android:textColor="@drawable/title_text_sel"
+                android:textSize="16sp"/>
+        </RadioGroup>
+    </com.gcu.math.view.ui.TopBar>
+
+    <FrameLayout
+        android:id="@+id/fragment_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

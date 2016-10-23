@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.gcu.math.view.ui.TopBar
+        style="@style/TopBar"
+        app:title="@string/personal_info" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_head"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/my_info_head_height"
+                app:keyText="@string/headImage">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/image_head"
+                    android:layout_width="@dimen/headImage_width"
+                    android:layout_height="@dimen/headImage_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/softText_marginRight" />
+            </com.gcu.math.view.ui.SoftTextView>
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_nick"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/nick_name"
+                app:valueText="Martin" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_real"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/real_name"
+                app:valueText="林泽贤" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_school_num"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/school_number"
+                app:valueText="201330098066" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_school"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/school"
+                app:valueText="华南理工大学广州学院" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_sec_school"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/sec_school"
+                app:valueText="计算机工程学院" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_major"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/major"
+                app:valueText="软件工程" />
+
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_year"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/year"
+                app:valueText="2013" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_grade"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:keyText="@string/grade"
+                app:valueText="4班" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                app:hasLine="false"
+                app:keyText="@string/e_mail"
+                app:valueText="812002440@qq.com" />
+
+            <com.gcu.math.view.ui.SoftTextView
+                android:id="@+id/soft_passWord"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/softText_height"
+                android:layout_marginTop="20dp"
+                app:keyText="@string/change_pwd" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

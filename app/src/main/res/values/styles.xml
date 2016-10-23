@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="NavigationRadio">
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/navigationRadio_paddingTop</item>
+        <item name="android:textColor">@drawable/text_selector</item>
+        <item name="android:drawablePadding">@dimen/navigationRadio_drawablePadding</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="TopBar">
+        <item name="android:id">@id/topBar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+
+</resources>
